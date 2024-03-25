@@ -41,7 +41,7 @@ public class SelectionSort {
             array[i] = array[currentMinIndex];  // 67 => 15
             array[currentMinIndex] = temp;   //  15 => 67
 
-            System.out.println("Hapi: "+i);
+            System.out.println("Hapi: " + i);
             DisplayArray(array);
         }
     }
