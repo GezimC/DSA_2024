@@ -11,7 +11,7 @@ public class BasicSearchs {
 
     public static int SequentialSearch(int[] array, int searchedValue) {
 
-        int searchedIndex = -1;
+        int searchedIndex = -1;    //1
 
         for (int i = 0; i < array.length; i++) {
             if (searchedValue == array[i]) {

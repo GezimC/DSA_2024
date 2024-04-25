@@ -35,14 +35,14 @@ public class SelectionSort {
         int temp;
 //      int[] unsortedArray = {2, 67, 21, 98, 23, 65, 44,15, 37, 19, 87};
         for (int i = 0; i < array.length; i++) {
-            currentMinIndex = IndexOfMinValue(array, i);  // i = 1, indmin=7, val = 15
-            temp = array[i];  // temp = 67
+            currentMinIndex = IndexOfMinValue(array, i);  // i = 1, indmin=7, val = 15  //O(N)
+            temp = array[i];  // temp = 67    O(1)
 
-            array[i] = array[currentMinIndex];  // 67 => 15
+            array[i] = array[currentMinIndex];  // 67 => 15         O(1)
             array[currentMinIndex] = temp;   //  15 => 67
 
-            System.out.println("Hapi: " + i);
-            DisplayArray(array);
+          //  System.out.println("Hapi: " + i);
+           // DisplayArray(array);
         }
     }
 
