@@ -1,17 +1,13 @@
-public class Stack {
+public class Stack extends BaseStructureQS {
 
-    public Element top;
-    public int size;
-    public int max_size = 100;
 
     public Stack(int data) {
-        this.top = new Element(data);
-        this.size = 1;
+        super(data);
     }
 
 
     public void push(int data) {
-        if (size == max_size) {
+        if (this.size == this.max_size) {
             System.out.println("Stack is full");
         }
 
@@ -35,30 +31,8 @@ public class Stack {
         return actualTop;
     }
 
-    public boolean isEmpty() {
-        if (size == 0) return true;
-
-        return false;
+    @Override
+    public String toString() {
+        return "Size of stack is: "+ this.size;
     }
-
-    public boolean isFull() {
-        if (this.size == max_size) return true;
-
-        return false;
-    }
-
-
-    public void displayStack() {
-        int i = 0;
-
-        Element tempElement = this.top;
-
-        while (tempElement != null) {
-            System.out.printf("Elementi %d: %d \n", i, tempElement.data);
-            tempElement = tempElement.next;
-            i++;
-        }
-    }
-
-
 }

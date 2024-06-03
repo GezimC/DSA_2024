@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayBasics/ArrayBasics.iml" filepath="$PROJECT_DIR$/ArrayBasics/ArrayBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" filepath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA_2024.iml" filepath="$PROJECT_DIR$/.idea/DSA_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedLists/LinkedLists.iml" filepath="$PROJECT_DIR$/LinkedLists/LinkedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sequential_Binay_Search/Sequential_Binay_Search.iml" filepath="$PROJECT_DIR$/Sequential_Binay_Search/Sequential_Binay_Search.iml" />
